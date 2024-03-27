@@ -1,0 +1,12 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.transaction-list {
+    max-height: 200px; /* Establece la altura máxima */
+    overflow-y: auto; /* Agrega desplazamiento vertical */
+  }
+  
+  .transaction-list::-webkit-scrollbar {
+    width: 0; /* Ancho de la barra de desplazamiento */
+  }
